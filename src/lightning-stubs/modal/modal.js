@@ -11,6 +11,6 @@ export default class Modal extends LightningElement {
     @api disableClose;
     @api label;
     @api size;
-    
-    @api open();
+
+    @api open() {}
 }
