@@ -13,5 +13,6 @@ export default class Toast extends LightningElement {
     @api messageLinks;
     @api mode;
     @api variant;
+    @api focus() {}
     @api show() {}
 }
