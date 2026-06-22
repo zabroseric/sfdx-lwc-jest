@@ -7,13 +7,11 @@
 import { LightningElement, api } from 'lwc';
 
 export default class Toast extends LightningElement {
-    static show() {}
-
-    @api labelLinks;
-    @api messageLinks;
     @api label;
+    @api labelLinks;
     @api message;
-    @api variant;
+    @api messageLinks;
     @api mode;
-    @api focus() {}
+    @api variant;
+    @api show() {}
 }
